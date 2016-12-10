@@ -89,7 +89,8 @@
 
     })();
     /* Masonry Grid */
-    $(document).on('add.cards change.cards', function(event) {
+    $(document).on('add.cards change.cards', function (event) {
+       // alert("triggered now");
         function setImgSrc(item) {
             var $img = item.find('img');
             var $modalImg = item.closest('section').find('.modal-dialog .carousel-inner .carousel-item').eq($img.closest('.mbr-gallery-item').index()).find('img');
