@@ -115,15 +115,15 @@
         }
         if (typeof $.fn.masonry !== 'undefined') {
             $(event.target).outerFind('.mbr-gallery').each(function() {
-                var $msnr = $(this).find('.mbr-gallery-row').masonry({
+                window.masonry = $(this).find('.mbr-gallery-row').masonry({
                     itemSelector: '.mbr-gallery-item',
                     percentPosition: true
                 });
                 // reload masonry (need for adding new or resort items)
-                $msnr.masonry('reloadItems');
+                window.masonry.masonry('reloadItems');
                 // layout Masonry after each image loads
-                $msnr.imagesLoaded().progress(function() {
-                    $msnr.masonry('layout');
+                window.masonry.imagesLoaded().progress(function() {
+                    window.masonry.masonry('layout');
                 });
             });
         }

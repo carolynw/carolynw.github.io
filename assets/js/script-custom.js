@@ -3,22 +3,32 @@ $("ul.filter-author>li>a").on("click",function(){
 	var clicked = $(this).text();
 	$("ul.filter-author>li").removeClass("active");
 	$(this).parent().addClass("active");
-
-    // now hide the images and relayout
-    //$("div:contains('John')").
-    //$("div.mbr-gallery-item").data("Tags")
-    //alert($("div[data-tags*='" + clicked + "']").length);
-	//alert($("div.mbr-gallery-item").length);
+/*
+   
 	$("div.mbr-gallery-item").hide();
 	$("div[data-tags*='" + clicked + "']").show();
-	//$("." + clicked).hide();
-	//$("document").trigger("add.cards change.cards");
+*/
 
 
 	if (typeof $.fn.masonry !== 'undefined') {
+	    $.each($("div.mbr-gallery-item"), function (index, value) {
+	        if ($(this).data("tags").indexOf(clicked) < 0) {
+	            window.masonry.masonry('remove', $(this))
+	        }
+	    });
+	    
+   
 
-	    $('.mbr-gallery').each(function () {
-	        alert("found gallery");
+	   // $('.mbr-gallery').each(function () {
+	        // reload masonry (need for adding new or resort items)
+	        //window.masonry.masonry('reloadItems');
+	        // layout Masonry after each image loads
+	       // window.masonry.imagesLoaded().progress(function () {
+	            window.masonry.masonry('layout');
+	        //});
+
+	        //window.masonry.masonry('layout');
+            /*
 	        var $msnr = $(this).find('.mbr-gallery-row').masonry({
 	            itemSelector: '.mbr-gallery-item',
 	            percentPosition: true
@@ -29,7 +39,8 @@ $("ul.filter-author>li>a").on("click",function(){
 	        //$msnr.imagesLoaded().progress(function () {
 	            $msnr.masonry('layout');
 	        //});
-	    });
+            */
+	   // });
 	}
 });
 
