@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
-    <meta name="description" content="How to create a responsive image gallery with Bootstrap, jQuery and CSS?">
+    <meta name="description" content="Plsnkton gallery">
     <title>Plankton gallery</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
@@ -33,6 +33,37 @@
             transition: .2s opacity ease-in-out;
             z-index: 5;
         }
+        .carousel-caption {
+    background: rgba(0, 0, 0, 0.35);
+    padding-left:20px;
+    padding-right:20px;
+}
+        .btn-show {
+  position: fixed;
+  background: #1b1b1b;
+  opacity: 0.5;
+  font-size: 25px;
+  font-weight: 300;
+  width: 270px;
+  height: 70px;
+  border-radius: 10%;
+  color: #fff;
+  bottom: 1rem;
+  right: 1.5rem;
+  line-height: 61px;
+  border: 0;
+  text-align: center;
+  text-shadow: none;
+  z-index: 5;
+  -webkit-transition: opacity .3s ease;
+  -moz-transition: opacity .3s ease;
+  -o-transition: opacity .3s ease;
+  transition: opacity .3s ease; }
+
+.btn-show:hover {
+  opacity: 1;
+  background: #000;
+  color: #fff; }
     </style>
 </head>
 <body>
@@ -272,8 +303,19 @@
                         <div class="carousel-inner">
                             <div class="carousel-item">
                                 <img alt="" src="assets/images/B0847.jpg">
+                                
+                                <div class="carousel-caption">
+                                    <button type='button' id="btn-close-caption">×</button>
+
+                                    Insert your text here ! Insert your text here !
+                                    Insert your text here ! <br/>
+                                    Insert your text here !
+                                    Insert your text here !
+                                </div>
+
                             </div><div class="carousel-item">
                                 <img alt="" src="assets/images/B0984.jpg">
+                                      <button type='button' class="btn-show" id="btn-show-details">Show details</button>
                             </div><div class="carousel-item">
                                 <img alt="" src="assets/images/B1013.jpg">
                             </div><div class="carousel-item">
