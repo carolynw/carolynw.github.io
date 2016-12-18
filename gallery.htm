@@ -37,29 +37,46 @@
     background: rgba(0, 0, 0, 0.35);
     padding-left:20px;
     padding-right:20px;
+    right:0;
+    left:0;
+    margin-bottom:0;
+    padding-bottom:15px !important;
+    bottom:0
 }
-        .btn-show {
-  position: fixed;
+
+ .btn-show, .btn-hide{
+    text-align:left;
   background: #1b1b1b;
   opacity: 0.5;
-  font-size: 25px;
-  font-weight: 300;
-  width: 270px;
-  height: 70px;
-  border-radius: 2%;
-  color: #fff;
-  bottom: 1rem;
-  right: 1.5rem;
-  line-height: 61px;
-  border: 0;
+  font-size: 20px;
+  height: 50px;
+  width:50px;
+   color: #fff;
+   border:0;
   text-align: center;
   text-shadow: none;
   z-index: 5;
+  line-height: 30px;
+  border-radius: 2%;
   -webkit-transition: opacity .3s ease;
   -moz-transition: opacity .3s ease;
   -o-transition: opacity .3s ease;
-  transition: opacity .3s ease; }
+  transition: opacity .3s ease;
+  margin:0;
+        }
+         .btn-hide{
+            margin-right:-20px;
+            margin-top:-20px;
+        }
+.btn-show {
+  position: fixed;
+  font-weight: 300;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+}
 
+.btn-hide:hover,
 .btn-show:hover {
   opacity: 1;
   background: #000;
@@ -305,18 +322,17 @@
                                 <img alt="" src="assets/images/B0847.jpg">
                                 
                                 <div class="carousel-caption">
-                                    <button type='button' class="btn-hide" id="btn-hide-details">×</button>
-
                                     Insert your text here ! Insert your text here !
                                     Insert your text here ! <br/>
                                     Insert your text here !
                                     Insert your text here !
                                 </div>
+                                <button type='button' class="btn-hide  pull-right" id="btn-hide-details">×</button>
 
                             </div><div class="carousel-item">
                                 <img alt="" src="assets/images/B0984.jpg">
                                       <div class="carousel-caption" style="display:none">
-                                          <button type='button' class="btn-hide">×</button>
+                                          <button type='button' class="btn-hide pull-right">×</button>
                                           jjlgrlkjreglkjtljk<br />
                                           Insert your text here !
                                           Insert your text here !
