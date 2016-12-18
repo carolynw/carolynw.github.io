@@ -41,7 +41,8 @@
     left:0;
     margin-bottom:0;
     padding-bottom:15px !important;
-    bottom:0
+    bottom:0;
+    text-align:left;
 }
 
  .btn-show, .btn-hide{
@@ -74,6 +75,26 @@
   width: 100%;
   bottom: 0;
   right: 0;
+}
+dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0
+}
+dt {
+  float: left;
+  width: 30%;
+  /* adjust the width; make sure the total of both is 100% */
+  padding: 0;
+  margin: 0
+}
+dd {
+  float: left;
+  width: 70%;
+  /* adjust the width; make sure the total of both is 100% */
+  padding: 0;
+  margin: 0
 }
 
 .btn-hide:hover,
@@ -320,22 +341,42 @@
                         <div class="carousel-inner">
                             <div class="carousel-item">
                                 <img alt="" src="assets/images/B0847.jpg">
-                                
-                                <div class="carousel-caption">
-                                    Insert your text here ! Insert your text here !
-                                    Insert your text here ! <br/>
-                                    Insert your text here !
-                                    Insert your text here !
-                                </div>
-                                <button type='button' class="btn-hide  pull-right" id="btn-hide-details">×</button>
+                                <div class="carousel-caption" style="display:none">
+                                    <button type='button' class="btn-hide pull-right">×</button>
+                                    <h3>Globigerinid Foraminiferan</h3>
+                                    <dl>
+                                        <dt>Source</dt>
+                                        <dd>Aquaparadox</dd>
+                                        <dt>Species</dt>
+                                        <dd>Globigerinid</dd>
+                                        <dt>Biological group</dt>
+                                        <dd>
+                                            Foraminifera
+                                        </dd>
+                                        <dt>Details</dt>
+                                        <dd>Globigerinid Foraminiferan shell from the Aegean Sea</dd>
+                                    </dl>
 
+
+                                </div>
+                                <button type='button' class="btn-show">Show details</button>
                             </div><div class="carousel-item">
                                 <img alt="" src="assets/images/B0984.jpg">
                                       <div class="carousel-caption" style="display:none">
                                           <button type='button' class="btn-hide pull-right">×</button>
-                                          jjlgrlkjreglkjtljk<br />
-                                          Insert your text here !
-                                          Insert your text here !
+                                          <h3>Tintinnid</h3>
+                                          <dl>
+                                              <dt>Source</dt><dd>Aquaparadox</dd>
+                                              <dt>Species</dt><dd>Metacylis mereschkowskii<br/>
+                                              Calanus finmarchicus Test only</dd>
+                                              <dt>Biological group</dt>
+                                              <dd>
+                                                  Tintinneds
+                                              </dd>
+
+                                          </dl>
+                                          
+
                                       </div>
                                       <button type='button' class="btn-show">Show details</button>
 
