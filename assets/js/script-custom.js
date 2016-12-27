@@ -1,6 +1,5 @@
-var removedItems = [];
-var newItems = [];
-var newItem;
+
+var allItems = [];
 (function ($) {
 
     $(".btn-show").on("click", function () {
@@ -12,6 +11,8 @@ var newItem;
         $(this).parent().parent().find(".btn-show").show();
         $(this).parent().parent().find(".carousel-caption").hide();
     });
+
+
 $("ul.filter-author>li").on("click",function(){
     var clicked = $(this).text();
 	$("ul.filter-author>li").removeClass("active");
@@ -19,32 +20,31 @@ $("ul.filter-author>li").on("click",function(){
 
 
 	if (typeof $.fn.masonry !== 'undefined') {
-        //check if visible ones match the tags and hide if not
-	    $.each($("div.mbr-gallery-item"), function (index, value) {
-	        if ($(this).data("tags").indexOf(clicked) < 0) {
-	            newItem = $(this).clone();
+	    if (allItems.length == 0) {
+	        $.each($("div.mbr-gallery-item"), function (index, value) {
+	            var newItem = $(this).clone();
 	            newItem.css("left", "").css("top", "").css("position", "");
-	            
-	           // if (!removedItems.inArray($(this))) {
-	                removedItems.push(newItem);
-	           // }
-	            window.masonry.masonry('remove', $(this))
-	        }
-	    });
+	            allItems.push(newItem);
+	        });
+	    }
+	    //remove all items
 
-        // check if oreviously hidden ones match so we can show them
-	    $.each(removedItems, function (index, value) {
+	    $.each($("div.mbr-gallery-item"), function (index, value) {
+	            window.masonry.masonry('remove', $(this))
+	    });
+	    window.masonry.masonry("reloadItems");
+
+	    var newItems = [];
+        // check if any match so we can show them
+	    $.each(allItems, function (index, value) {
 	        if ($(this).data && $(this).data("tags") && $(this).data("tags").indexOf(clicked) > 0) {
 	            newItems.push($(this));
-	            removedItems.pop($(this));
 	        }
 	    });
 
 	    if (newItems.length > 0) {
-	        alert(newItem.length);
 	        window.masonry.append(newItems).masonry('appended', newItems);
-
-	        window.masonry.reloadItems();
+	        window.masonry.masonry("reloadItems");
 	        // layout Masonry after each image loads
 	        window.masonry.imagesLoaded().progress(function () {
 	            window.masonry.masonry('layout');
