@@ -40,7 +40,7 @@ $("ul.filter-author>li").on("click",function(){
         // check if any match so we can show them
 	    $.each(allItems, function (index, value) {
 	        if ($(this).data && $(this).data("tags") && $(this).data("tags").indexOf(clicked) > 0) {
-	            //$(this).css("left", "").css("top", "").css("position", "");
+	            $(this).css("left", "").css("top", "").css("position", "");
    	            newItems.push($(this));
 	        }
 	    });
@@ -61,22 +61,6 @@ $("ul.filter-author>li").on("click",function(){
 	            window.masonry.masonry('layout');
 	        });
 	    }
-        /*
-	    if (newItems.length > 0) {
-	        window.masonry.append(newItems).masonry('appended', newItems);
-	        window.masonry.masonry("reloadItems");
-	        // layout Masonry after each image loads
-	        window.masonry.imagesLoaded().progress(function () {
-	            window.masonry.masonry('layout');
-	        });
-
-	    }
-        */
-
-
-	    
- 
-	            window.masonry.masonry('layout');
 
 	  
 	}
