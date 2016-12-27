@@ -23,25 +23,45 @@ $("ul.filter-author>li").on("click",function(){
 	    if (allItems.length == 0) {
 	        $.each($("div.mbr-gallery-item"), function (index, value) {
 	            var newItem = $(this).clone();
-	            newItem.css("left", "").css("top", "").css("position", "");
+	            newItem.attr("style","");
 	            allItems.push(newItem);
 	        });
 	    }
 	    //remove all items
-
+	    window.masonry.masonry('destroy');
+        /*
 	    $.each($("div.mbr-gallery-item"), function (index, value) {
 	            window.masonry.masonry('remove', $(this))
 	    });
-	    window.masonry.masonry("reloadItems");
+        */
+
 
 	    var newItems = [];
         // check if any match so we can show them
 	    $.each(allItems, function (index, value) {
 	        if ($(this).data && $(this).data("tags") && $(this).data("tags").indexOf(clicked) > 0) {
-	            newItems.push($(this));
+	            //$(this).css("left", "").css("top", "").css("position", "");
+   	            newItems.push($(this));
 	        }
 	    });
 
+	    $grid = $('.mbr-gallery-row');
+	    $grid.empty();
+	    $grid.append(newItems);
+
+	    if (newItems.length > 0) {
+	        window.masonry = $grid.masonry({
+	            itemSelector: '.mbr-gallery-item',
+	            percentPosition: true
+	        });
+	        // reload masonry (need for adding new or resort items)
+	        window.masonry.masonry('reloadItems');
+	        // layout Masonry after each image loads
+	        window.masonry.imagesLoaded().progress(function () {
+	            window.masonry.masonry('layout');
+	        });
+	    }
+        /*
 	    if (newItems.length > 0) {
 	        window.masonry.append(newItems).masonry('appended', newItems);
 	        window.masonry.masonry("reloadItems");
@@ -51,33 +71,14 @@ $("ul.filter-author>li").on("click",function(){
 	        });
 
 	    }
+        */
 
 
 	    
-   
-
-	   // $('.mbr-gallery').each(function () {
-	        // reload masonry (need for adding new or resort items)
-	        //window.masonry.masonry('reloadItems');
-	        // layout Masonry after each image loads
-	       // window.masonry.imagesLoaded().progress(function () {
+ 
 	            window.masonry.masonry('layout');
-	        //});
 
-	        //window.masonry.masonry('layout');
-            /*
-	        var $msnr = $(this).find('.mbr-gallery-row').masonry({
-	            itemSelector: '.mbr-gallery-item',
-	            percentPosition: true
-	        });
-	        // reload masonry (need for adding new or resort items)
-	        //$msnr.masonry('reloadItems');
-	        // layout Masonry after each image loads
-	        //$msnr.imagesLoaded().progress(function () {
-	            $msnr.masonry('layout');
-	        //});
-            */
-	   // });
+	  
 	}
 });
 
