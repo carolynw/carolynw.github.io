@@ -9,9 +9,11 @@ var allItems = [];
 
     $(".btn-hide").on("click", function () {
         $(this).parent().parent().find(".btn-show").show();
-        $(this).parent().parent().find(".carousel-caption").hide();
+        $(this).parent().parent().parent().find(".carousel-caption").hide();
     });
-
+    $(".btn-alt-hide").on("click", function () {
+        $(this).parent().parent().parent().find(".btn-hide").trigger("click");
+    });
 
 $("ul.filter-author>li").on("click",function(){
     var clicked = $(this).text();

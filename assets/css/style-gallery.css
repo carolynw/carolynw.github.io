@@ -40,7 +40,7 @@
 }
 
 .mbr-gallery .icon-focus::before {
-  content: '\e01b';
+
   color: white;
   position: absolute;
 }
