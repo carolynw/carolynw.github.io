@@ -1,4 +1,9 @@
-﻿        .carousel-caption > button{float:right}
+﻿.carousel-indicators{
+    bottom:auto !important;
+    top:10px;
+} 
+
+       .carousel-caption > button{float:right}
         .mbr-gallery .icon {
   z-index: 100 !important;
 }
