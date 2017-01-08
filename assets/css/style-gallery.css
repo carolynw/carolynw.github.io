@@ -2,11 +2,12 @@
     bottom:auto !important;
     top:10px;
 } 
-.btn{font-size:1.2em}
+
        .carousel-caption > button{float:right}
         .mbr-gallery .icon {
   z-index: 100 !important;
 }
+
 
         .mbr-gallery-filter > .card-group > .card{
             border: 0 none;
