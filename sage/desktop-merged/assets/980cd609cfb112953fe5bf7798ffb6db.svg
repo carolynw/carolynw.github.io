@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-online</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="29" cy="29" r="29"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="58" height="58" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M29,0 C20.163444,0 13,12.9837423 13,29 C13,45.0162577 20.163444,58 29,58 L29,58" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="58" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M46,0 C37.163444,0 30,12.9837423 30,29 C30,45.0162577 37.163444,58 46,58 L46,58" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="58" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Sprint-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="icon-online" transform="translate(1.000000, 1.000000)" stroke="#41A940">
+            <path d="M49.2758621,8.31034483 C44.1034483,13.4827586 36.862069,16.5862069 29,16.5862069 C21.137931,16.5862069 13.8965517,13.4827586 8.72413793,8.31034483" id="Shape"></path>
+            <path d="M8.72413793,49.6896552 C13.8965517,44.5172414 21.137931,41.4137931 29,41.4137931 C36.862069,41.4137931 44.1034483,44.5172414 49.2758621,49.6896552" id="Shape"></path>
+            <path d="M29,0 L29,58" id="Shape"></path>
+            <path d="M0,29 L58,29" id="Shape"></path>
+            <use id="Oval" mask="url(#mask-2)" stroke-width="2" stroke-linecap="round" xlink:href="#path-1"></use>
+            <use id="Oval" mask="url(#mask-4)" stroke-width="2" stroke-linecap="round" xlink:href="#path-3"></use>
+            <use id="Oval" mask="url(#mask-6)" stroke-width="2" stroke-linecap="round" transform="translate(38.000000, 29.000000) scale(-1, 1) translate(-38.000000, -29.000000) " xlink:href="#path-5"></use>
+        </g>
+    </g>
+</svg>

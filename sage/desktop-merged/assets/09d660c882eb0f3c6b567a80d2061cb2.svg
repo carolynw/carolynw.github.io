@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-penpaper</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Sprint-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-penpaper" transform="translate(11.000000, 3.000000)" stroke="#41A940">
+            <path d="M4.55555556,109.46875 L93.4444444,109.46875" id="Shape"></path>
+            <path d="M56.4074074,57.84375 L37.8888889,39.40625 L73.0740741,4.375 C78.2592593,-0.7875 86.4074074,-0.7875 91.5925926,4.375 L91.5925926,4.375 C96.7777778,9.5375 96.7777778,17.65 91.5925926,22.8125 L56.4074074,57.84375 Z" id="Shape"></path>
+            <polyline id="Shape" points="52.7037037 54.15625 23.0740741 83.65625 11.962963 72.59375 41.5925926 43.09375"></polyline>
+            <path d="M11.962963,72.59375 L6.40740741,78.125 C3.44444444,81.075 3.44444444,86.2375 6.40740741,89.1875 L6.40740741,89.1875 C9.37037037,92.1375 14.5555556,92.1375 17.5185185,89.1875 L23.0740741,83.65625" id="Shape"></path>
+            <path d="M6.40740741,89.1875 L0.851851852,94.71875" id="Shape"></path>
+            <polyline id="Shape" points="74.9259259 54.15625 97.1481481 32.03125 89.7407407 24.65625"></polyline>
+        </g>
+    </g>
+</svg>

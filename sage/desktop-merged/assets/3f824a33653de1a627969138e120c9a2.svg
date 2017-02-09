@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-finance</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Sprint-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-finance" transform="translate(7.000000, 1.000000)" stroke="#41A940">
+            <rect id="Rectangle-path" x="40.7692308" y="69.1724138" width="24.4615385" height="48.8275862"></rect>
+            <rect id="Rectangle-path" x="0" y="93.5862069" width="24.4615385" height="24.4137931"></rect>
+            <rect id="Rectangle-path" x="81.5384615" y="44.7586207" width="24.4615385" height="73.2413793"></rect>
+            <polyline id="Shape" points="12.2307692 40.6896552 32.6153846 20.3448276 53 40.6896552 93.7692308 0"></polyline>
+            <polyline id="Shape" points="69.3076923 0 93.7692308 0 93.7692308 24.4137931"></polyline>
+        </g>
+    </g>
+</svg>

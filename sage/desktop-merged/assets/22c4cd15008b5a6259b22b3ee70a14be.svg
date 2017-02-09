@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>radio-on</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="12" cy="12" r="12"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-4" y="-4" width="32" height="32">
+            <rect x="-4" y="-4" width="32" height="32" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Sprint-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="radio-on" transform="translate(4.000000, 4.000000)">
+            <g id="step-circle">
+                <use fill="#243741" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="8" xlink:href="#path-1"></use>
+            </g>
+            <polyline id="tick" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="8 12 11 15 17 9"></polyline>
+        </g>
+    </g>
+</svg>

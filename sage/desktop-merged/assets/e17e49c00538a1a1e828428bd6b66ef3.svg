@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-hospitality</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Sprint-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-hospitality" transform="translate(1.000000, 2.000000)" stroke="#41A940">
+            <path d="M59,17.2372449 C29.5350773,30.1096939 21.1165279,54.5673469 21.1165279,77.3086735 L21.1165279,94.4719388" id="Shape"></path>
+            <path d="M59,17.2372449 L59,0.0739795918" id="Shape"></path>
+            <path d="M117.929845,77.3086735 C117.929845,44.2693878 91.411415,17.2372449 59,17.2372449 C26.588585,17.2372449 0.0701545779,44.2693878 0.0701545779,77.3086735 L0.0701545779,94.4719388 L117.929845,94.4719388 L117.929845,77.3086735 Z" id="Shape"></path>
+            <path d="M0.0701545779,111.635204 L117.929845,111.635204" id="Shape"></path>
+            <path d="M80.0463734,0.0739795918 L37.9536266,0.0739795918" id="Shape"></path>
+        </g>
+    </g>
+</svg>

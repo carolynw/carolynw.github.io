@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-health</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Sprint-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-health" transform="translate(4.000000, 1.000000)" stroke="#41A940">
+            <polyline id="Shape" points="33.625 78.3548387 33.625 117.064516 97.375 117.064516 97.375 86.0967742"></polyline>
+            <ellipse id="Oval" cx="97" cy="71" rx="15" ry="15"></ellipse>
+            <path d="M52.375,4.80645161 L66.625,4.80645161 C68.875,4.80645161 70.75,6.74193548 70.375,9.4516129 L60.625,72.1612903 C59.875,76.0322581 56.875,78.7419355 53.125,78.7419355 L17.5,78.7419355 C13.75,78.7419355 10.75,76.0322581 10,72.1612903 L0.625,9.4516129 C0.25,6.74193548 2.125,4.80645161 4.375,4.80645161 L18.625,4.80645161" id="Shape"></path>
+            <path d="M18,0.935483871 L18,12.5483871" id="Shape" stroke-width="0.5"></path>
+            <path d="M52,0.935483871 L52,12.5483871" id="Shape" stroke-width="0.5"></path>
+        </g>
+    </g>
+</svg>
