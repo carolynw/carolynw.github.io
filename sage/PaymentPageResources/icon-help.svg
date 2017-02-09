@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-help</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="icon-help" stroke="#FFFFFF">
+            <rect id="Rectangle-path" x="3" y="3" width="24" height="24"></rect>
+            <path d="M15,17.1818182 L15,16.0909091 C16.7454545,16.0909091 18.2727273,14.5636364 18.2727273,12.8181818 C18.2727273,11.0727273 16.7454545,9.54545455 15,9.54545455 C13.6909091,9.54545455 12.4909091,10.5272727 11.9454545,11.6181818" id="Shape"></path>
+            <path d="M15,20.4545455 L15,21.5454545" id="Shape"></path>
+        </g>
+    </g>
+</svg>
