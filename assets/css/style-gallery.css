@@ -140,18 +140,18 @@
 }
 
 .mbr-gallery-filter li:hover {
-  background-color: #333333;
+  background-color: #c0a375;;
   color: #c39f76;
 }
 
 .mbr-gallery-filter li.active {
-  color: white;
-  background-color: #333333;
+
+  background-color:  #c0a375;;
 }
 
 .mbr-gallery-filter li.active:hover {
-  color: white;
-  background-color: #333333;
+
+  background-color:  #c0a375;;
 }
 
 .mbr-gallery-item> div {
@@ -214,4 +214,103 @@
     .mbr-gallery .mbr-gallery-item--p6, .mbr-gallery .mbr-gallery-item--p5, .mbr-gallery .mbr-gallery-item--p4, .mbr-gallery-item--p3{
     width:100%;
 }
+}
+
+/* view cards */
+      .mbr-gallery > .fa-plus {
+            color: white;
+            opacity: 0;
+            position: absolute;
+            top: calc(50% - 24px);
+            left: calc(50% - 32px);
+            font-size: 3rem;
+            transition: .2s opacity ease-in-out;
+            z-index: 5;
+        }
+        .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding-left:20px;
+    padding-right:20px;
+    right:0;
+    left:0;
+    margin-bottom:0;
+    padding-bottom:15px !important;
+    bottom:0;
+    text-align:left;
+}
+
+ .btn-show, .btn-hide{
+    text-align:left;
+  background: #1b1b1b;
+  opacity: 0.5;
+  font-size: 20px;
+  height: 50px;
+  width:50px;
+   color: #fff;
+   border:0;
+  text-align: center;
+  text-shadow: none;
+  z-index: 5;
+  line-height: 30px;
+  border-radius: 2%;
+  -webkit-transition: opacity .3s ease;
+  -moz-transition: opacity .3s ease;
+  -o-transition: opacity .3s ease;
+  transition: opacity .3s ease;
+  margin:0;
+        }
+         .btn-hide{
+            margin-right:-20px;
+            margin-top:-20px;
+        }
+.btn-show {
+  position: fixed;
+  font-weight: 300;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+}
+dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0
+}
+dt {
+  float: left;
+  width: 30%;
+  /* adjust the width; make sure the total of both is 100% */
+  padding: 0;
+  margin: 0
+}
+dd {
+  float: left;
+  width: 70%;
+  /* adjust the width; make sure the total of both is 100% */
+  padding: 0;
+  margin: 0;
+  margin-bottom:0.6em;
+}
+
+.btn-hide:hover,
+.btn-show:hover {
+  opacity: 1;
+  background: #000;
+  color: #fff; }
+  
+  .mx-auto {
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+
+.filter-author > li,
+.filter-author .card{
+margin:0;
+border:0;
+padding-left:9px;
+padding-right:9px;
+}
+.filter-author .card-block{
+padding:1rem
+	
 }

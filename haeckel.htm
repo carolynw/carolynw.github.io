@@ -23,86 +23,7 @@
 
     <style type="text/css">
 
-        .mbr-gallery > .fa-plus {
-            color: white;
-            opacity: 0;
-            position: absolute;
-            top: calc(50% - 24px);
-            left: calc(50% - 32px);
-            font-size: 3rem;
-            transition: .2s opacity ease-in-out;
-            z-index: 5;
-        }
-        .carousel-caption {
-    background: rgba(0, 0, 0, 0.5);
-    padding-left:20px;
-    padding-right:20px;
-    right:0;
-    left:0;
-    margin-bottom:0;
-    padding-bottom:15px !important;
-    bottom:0;
-    text-align:left;
-}
-
- .btn-show, .btn-hide{
-    text-align:left;
-  background: #1b1b1b;
-  opacity: 0.5;
-  font-size: 20px;
-  height: 50px;
-  width:50px;
-   color: #fff;
-   border:0;
-  text-align: center;
-  text-shadow: none;
-  z-index: 5;
-  line-height: 30px;
-  border-radius: 2%;
-  -webkit-transition: opacity .3s ease;
-  -moz-transition: opacity .3s ease;
-  -o-transition: opacity .3s ease;
-  transition: opacity .3s ease;
-  margin:0;
-        }
-         .btn-hide{
-            margin-right:-20px;
-            margin-top:-20px;
-        }
-.btn-show {
-  position: fixed;
-  font-weight: 300;
-  width: 100%;
-  bottom: 0;
-  right: 0;
-}
-dl {
-  width: 100%;
-  overflow: hidden;
-  padding: 0;
-  margin: 0
-}
-dt {
-  float: left;
-  width: 30%;
-  /* adjust the width; make sure the total of both is 100% */
-  padding: 0;
-  margin: 0
-}
-dd {
-  float: left;
-  width: 70%;
-  /* adjust the width; make sure the total of both is 100% */
-  padding: 0;
-  margin: 0;
-  margin-bottom:0.6em;
-}
-
-.btn-hide:hover,
-.btn-show:hover {
-  opacity: 1;
-  background: #000;
-  color: #fff; }
+  
 
     </style>
 </head>
@@ -154,12 +75,41 @@ dd {
         <div class="mbr-gallery-filter container gallery-filter-active" style="text-align:left">
             <h5 name="filters">Haeckel Images&nbsp;&nbsp;
 
-                <a href="hardy.htm" class="btn btn-primary-outline btn-sm m-b">Next originator: Hardy</a></p>
+                <a href="hardy.htm" class="btn btn-primary-outline btn-sm m-b">Next originator: Hardy</a>
 
             </h5>
   
-            <div>Filter by source</div>
-            <ul class="filter-author"><li>Medusae</li><li>Radiolarien</li><li>Siphonophores</li></ul>
+            <div>Filter by source  <a href="haeckel.htm" data-tag="All" class="btn-viewall">View all (10 images)</a>
+</div>
+            <ul class="filter-author">
+            <li>
+<div class="card text-center" style="text-align:center; ">
+<img alt="" class="card-img-top hidden-sm-down" src="assets/group/front-medusae.png" style="width:150px">
+  <div class="card-block">
+    <p class="card-text" data-tag="Medusae">Medusae (3 images)
+    </p>
+  </div>
+</div>  
+            </li>
+            <li>
+<div class="card text-center" style="text-align:center; ">
+<img alt="" class="card-img-top hidden-sm-down" src="assets/group/front-radiolarien.png" style="width:150px">
+  <div class="card-block">
+    <p class="card-text" data-tag="Radiolarien">Radiolarien (3 images)</p>
+  </div>
+</div>
+</li>
+            <li>
+<div class="card text-center" style="text-align:center; ">
+<img alt="" class="card-img-top  hidden-sm-down " style="width:150px" src="assets/group/front-siphonophores.png" >
+  <div class="card-block">
+    <p class="card-text" data-tag="Siphonophores">Siphonophores (4 images )</p>
+  </div>
+</div>
+</li>
+  
+
+</ul>
 
         </div>
 

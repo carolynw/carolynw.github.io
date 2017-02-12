@@ -15,11 +15,14 @@ var allItems = [];
         $(this).parent().parent().parent().find(".btn-hide").trigger("click");
     });
 
-$("ul.filter-author>li").on("click",function(){
-    var clicked = $(this).text();
+    $(".btn-viewall").hide();
+
+    $("ul.filter-author>li").on("click", function () {
+        $(".btn-viewall").show();
+    var clicked = $(this).find(".card-text").data("tag");
+
 	$("ul.filter-author>li").removeClass("active");
 	$(this).addClass("active");
-alert(clicked);
 
 	if (typeof $.fn.masonry !== 'undefined') {
 	    if (allItems.length == 0) {
