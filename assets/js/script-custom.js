@@ -20,11 +20,12 @@ var allItems = [];
     $("ul.filter-author>li").on("click", function () {
         $(".btn-viewall").show();
     var clicked = $(this).find(".card-text").data("tag");
-
+    //alert(clicked);
 	$("ul.filter-author>li").removeClass("active");
 	$(this).addClass("active");
 
 	if (typeof $.fn.masonry !== 'undefined') {
+	    //alert("masonry is active");
 	    if (allItems.length == 0) {
 	        $.each($("div.mbr-gallery-item"), function (index, value) {
 	            var newItem = $(this).clone();
@@ -44,9 +45,11 @@ var allItems = [];
 	    var newItems = [];
         // check if any match so we can show them
 	    $.each(allItems, function (index, value) {
+
 	        if ($(this).data && $(this).data("tags") && $(this).data("tags").indexOf(clicked) > 0) {
 	            $(this).css("left", "").css("top", "").css("position", "");
-   	            newItems.push($(this));
+	            newItems.push($(this));
+
 	        }
 	    });
 

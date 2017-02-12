@@ -23,86 +23,7 @@
 
     <style type="text/css">
 
-        .mbr-gallery > .fa-plus {
-            color: white;
-            opacity: 0;
-            position: absolute;
-            top: calc(50% - 24px);
-            left: calc(50% - 32px);
-            font-size: 3rem;
-            transition: .2s opacity ease-in-out;
-            z-index: 5;
-        }
-        .carousel-caption {
-    background: rgba(0, 0, 0, 0.5);
-    padding-left:20px;
-    padding-right:20px;
-    right:0;
-    left:0;
-    margin-bottom:0;
-    padding-bottom:15px !important;
-    bottom:0;
-    text-align:left;
-}
-
- .btn-show, .btn-hide{
-    text-align:left;
-  background: #1b1b1b;
-  opacity: 0.5;
-  font-size: 20px;
-  height: 50px;
-  width:50px;
-   color: #fff;
-   border:0;
-  text-align: center;
-  text-shadow: none;
-  z-index: 5;
-  line-height: 30px;
-  border-radius: 2%;
-  -webkit-transition: opacity .3s ease;
-  -moz-transition: opacity .3s ease;
-  -o-transition: opacity .3s ease;
-  transition: opacity .3s ease;
-  margin:0;
-        }
-         .btn-hide{
-            margin-right:-20px;
-            margin-top:-20px;
-        }
-.btn-show {
-  position: fixed;
-  font-weight: 300;
-  width: 100%;
-  bottom: 0;
-  right: 0;
-}
-dl {
-  width: 100%;
-  overflow: hidden;
-  padding: 0;
-  margin: 0
-}
-dt {
-  float: left;
-  width: 30%;
-  /* adjust the width; make sure the total of both is 100% */
-  padding: 0;
-  margin: 0
-}
-dd {
-  float: left;
-  width: 70%;
-  /* adjust the width; make sure the total of both is 100% */
-  padding: 0;
-  margin: 0;
-  margin-bottom:0.6em;
-}
-
-.btn-hide:hover,
-.btn-show:hover {
-  opacity: 1;
-  background: #000;
-  color: #fff; }
+  
 
     </style>
 </head>
@@ -152,94 +73,310 @@ dd {
         <!-- Filter -->
 
         <div class="mbr-gallery-filter container gallery-filter-active" style="text-align:left">
-            <h5 name="filters">Haeckel Images&nbsp;&nbsp;
+            <h5 name="filters">Jelly Fish Images&nbsp;&nbsp;
 
-                <a href="hardy.htm" class="btn btn-primary-outline btn-sm m-b">Next originator: Hardy</a></p>
+                <a href="hardy.htm" class="btn btn-primary-outline btn-sm m-b">Next biological group: Protozoa</a>
 
             </h5>
   
-            <div>Filter by source</div>
-            <ul class="filter-author"><li>Medusae</li><li>Radiolarien</li><li>Siphonophores</li></ul>
+            <div>Filter by group  <a href="group1.htm" data-tag="All" class="btn-viewall">View all (10 images)</a>
+</div>
+            <ul class="filter-author">
+            <li>
+<div class="card text-center" style="text-align:center; ">
+<img alt="" class="card-img-top hidden-sm-down" src="assets/group/front-medusae.png" style="width:150px">
+  <div class="card-block">
+    <p class="card-text" data-tag="Medusae">Medusae (33 images)
+    </p>
+  </div>
+</div>  
+            </li>
+            <li>
+<div class="card text-center" style="text-align:center; ">
+<img alt="" class="card-img-top  hidden-sm-down " style="width:150px" src="assets/group/Mocafilio.jpg" >
+  <div class="card-block">
+    <p class="card-text" data-tag="Siphonophores">Siphonophores (44 images )</p>
+  </div>
+</div>
+</li>
+             <li>
+<div class="card text-center" style="text-align:center; ">
+<img alt="" class="card-img-top  hidden-sm-down " style="width:150px" src="assets/group/Mocafilio0004.jpg" >
+  <div class="card-block">
+    <p class="card-text" data-tag="Ctenophores">Ctenophores (40 images)</p>
+  </div>
+</div>
+</li>
+ 
+<li>
+<div class="card text-center" style="text-align:center; ">
+<img alt="" class="card-img-top  hidden-sm-down " style="width:150px" src="assets/group/others.png" >
+  <div class="card-block">
+    <p class="card-text" data-tag="Others">Others </p>
+  </div>
+</div>
+</li>
+
+</ul>
 
         </div>
 
         <!-- Gallery -->
         <div class="mbr-gallery-row container">
 
-              <div class="mbr-gallery-item " data-tags="Images, Medusae, Haeckel" data-video-url="false">
+              <div class="mbr-gallery-item " data-tags="Images, Medusae" data-video-url="false">
                 <div href="#lb-gallery1-0" data-slide-to="0" data-toggle="modal">
-                    <img alt="" src="assets/images/C0002.jpg">
+                   <img alt="" src="assets/group/Medusae/aurelia_black.jpg"> 
                     <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
-                    <span class="mbr-gallery-title">Ptychogena pinnulata </span>
+                    <span class="mbr-gallery-title">Aurelia Black </span>
                 </div>
             </div>
 
-            <div class="mbr-gallery-item " data-tags="Images, Medusae, Haeckel" data-video-url="false">
+            <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
                 <div href="#lb-gallery1-0" data-slide-to="1" data-toggle="modal">
-                    <img alt="" src="assets/images/C0003.jpg">
+    <img alt="" src="assets/group/Medusae/chry%20ach_black.jpg">                
                     <i class="fa fa-plus-square"></i>
-                    <span class="mbr-gallery-title">Pectyllis arctica</span>
+                    <span class="mbr-gallery-title">Chry Ach Black</span>
                 </div>
             </div>
 
-            <div class="mbr-gallery-item " data-tags="Images, Medusae, Haeckel" data-video-url="false">
+            <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
                 <div href="#lb-gallery1-0" data-slide-to="2" data-toggle="modal">
-                    <img alt="" src="assets/images/C0007.jpg">
+ <img alt="" src="assets/group/Medusae/chry%20mel_black.jpg">                   
                     <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
-                    <span class="mbr-gallery-title">Pectanthis asteroides</span>
+                    <span class="mbr-gallery-title">Chry Mel Black</span>
                 </div>
             </div>
-            <div class="mbr-gallery-item " data-tags="Images, Radiolarien, Haeckel" data-video-url="false">
+            <div class="mbr-gallery-item " data-tags="Images, Medusae" data-video-url="false">
                 <div href="#lb-gallery1-0" data-slide-to="3" data-toggle="modal">
-                    <img alt="" src="assets/images/D001.jpg">
+<img alt="" src="assets/group/Medusae/chry%20quinq_black.jpg">
                     <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
-                    <span class="mbr-gallery-title">Actissa princeps +(4)</span>
+                    <span class="mbr-gallery-title">Chry Quinq Black</span>
                 </div>
             </div>
-            <div class="mbr-gallery-item " data-tags="Images, Radiolarien, Haeckel" data-video-url="false">
+            <div class="mbr-gallery-item " data-tags="Images, Medusae" data-video-url="false">
                 <div href="#lb-gallery1-0" data-slide-to="4" data-toggle="modal">
-                    <img alt="" src="assets/images/D007.jpg">
+<img alt="" src="assets/group/Medusae/corylo_black.jpg">
                     <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
-                    <span class="mbr-gallery-title">Caminosphaera dendrophora +(6) </span>
+                    <span class="mbr-gallery-title">Corylo Black</span>
                 </div>
             </div>
-            <div class="mbr-gallery-item " data-tags="Images, Radiolarien, Haeckel" data-video-url="false">
+            <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
                 <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
-                    <img alt="" src="assets/images/D0118.jpg">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%202.jpg">
                     <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
-                    <span class="mbr-gallery-title">Gazelletta melusina +(1) </span>
+                    <span class="mbr-gallery-title">Meyer Plate 2 </span>
                 </div>
             </div>
             <!-- new images -->
-            <div class="mbr-gallery-item " data-tags="Images, Siphonophores, Haeckel" data-video-url="false">
-                <div href="#lb-gallery1-0" data-slide-to="6" data-toggle="modal">
-                    <img alt="" src="assets/images/E0003.jpg">
+            <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
                     <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
-                    <span class="mbr-gallery-title">Rhodalia miranda </span>
+                    <span class="mbr-gallery-title">Meyer Plate 3 </span>
                 </div>
             </div>
-            <div class="mbr-gallery-item " data-tags="Images, Siphonophores, Haeckel" data-video-url="false">
-                <div href="#lb-gallery1-0" data-slide-to="7" data-toggle="modal">
-                    <img alt="" src="assets/images/E0007.jpg">
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%207.jpg">
                     <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
-                    <span class="mbr-gallery-title">Stephalia corona </span>
+                    <span class="mbr-gallery-title">Meyer Plate 7 </span>
                 </div>
             </div>
-            <div class="mbr-gallery-item " data-tags="Images, Siphonophores, Haeckel" data-video-url="false">
-                <div href="#lb-gallery1-0" data-slide-to="8" data-toggle="modal">
-                    <img alt="" src="assets/images/E0008.jpg">
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%207.jpg">
                     <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
-                    <span class="mbr-gallery-title">Forskalia tholoides </span>
+                    <span class="mbr-gallery-title">Meyer Plate 8 </span>
                 </div>
             </div>
-            <div class="mbr-gallery-item" data-tags="Images, Siphonophores, Haeckel" data-video-url="false">
-                <div href="#lb-gallery1-0" data-slide-to="9" data-toggle="modal">
-                    <img alt="" src="assets/images/E0018.jpg">
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%209.jpg">
                     <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
-                    <span class="mbr-gallery-title">Dicymba diphyopsis</span>
+                    <span class="mbr-gallery-title">Meyer Plate 9 </span>
                 </div>
             </div>
- 
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%2011.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 11 </span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 15 </span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 16 </span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 17 </span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 18 </span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 19 </span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 20 </span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 21 </span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 23 </span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 24 </span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 25</span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 26</span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 27</span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 28</span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 29 </span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 30</span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 31 </span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 44 </span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 45 </span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 46 </span>
+                </div>
+            </div>
+           <div class="mbr-gallery-item " data-tags="Images, Medusae"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Medusae/Mayer%20Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Meyer Plate 47 </span>
+                </div>
+            </div>
+
+
+
+
+
+<!-- Siphos -->
+
+           <div class="mbr-gallery-item " data-tags="Images, Siphonophores"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Siphos/Plate%201.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Plate 1 </span>
+                </div>
+            </div>
+
+
+           <div class="mbr-gallery-item " data-tags="Images, Siphonophores"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Siphos/Plate%202.jpg">                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Plate 2 </span>
+                </div>
+            </div>
+
+
+           <div class="mbr-gallery-item " data-tags="Images, Siphonophores"  data-video-url="false">
+                <div href="#lb-gallery1-0" data-slide-to="5" data-toggle="modal">
+<img alt="" src="assets/group/Siphos/Plate%203.jpg">
+                    <span class="icon-focus"><i class="fa fa-plus-square"></i></span>
+                    <span class="mbr-gallery-title">Plate 3 </span>
+                </div>
+            </div>
+
+
 
             <div class="clearfix"></div>
 
@@ -265,293 +402,17 @@ dd {
                         </ol>
                         <div class="carousel-inner">
    
-                            <div class="carousel-item">
-                                <img alt="" src="assets/images/C0002.jpg">
-                                <div class="carousel-caption" style="display:none">
-                                    <button type='button' class="btn-hide  btn-hide pull-right">×</button>
-                                    <h3>Medusa </h3>
-                                    <dl>
-                                        <dt>Source</dt>
-                                        <dd><h6>Art forms in Nature</h6></dd>
-                                        <dt>Species</dt>
-                                        <dd>
-                                            Ptychogena pinnulata<br/>
-                                            Skeletonema costatum Test Only
-
-                                        </dd>
-                                        <dt>Biological groups</dt>
-                                        <dd>
-                                            Medusae
-                                        </dd>
-                                        <div class="clearfix"></div>
-                                        <dt>Details</dt>
-                                        <dd>Ptychogena pinnulata Sample collected in the North Atlantic, depth 1250 fathoms (2286 metres). Size: umbrella 50-60 mm, height 20-30 mm
-                                        </dd>
-
-                                    </dl>
-                       <br/>
-                                    <a href="#" class="btn btn-warning btn-alt-hide pull-left"><i class="fa fa-close"></i></a> 
-                                    <a class="btn btn-primary pull-left"  download="C0002.jpg" href="assets/images/C0002.jpg" title="Medusa"><i class="fa fa-download"></i> Download</a>
-
-                                </div>
-                                <button type='button' class="btn-show">Show details</button>
+                               <div class="carousel-item">
+                                <img alt="" src="assets/images/B1013.jpg">
                             </div>
                             <div class="carousel-item">
-                                <img alt="" src="assets/images/C0003.jpg">
-                                <div class="carousel-caption" style="display:none">
-                                    <button type='button' class="btn-hide pull-right">×</button>
-
-                                    <h3>Medusa</h3>
-                                    <dl>
-                                        <dt>Source</dt>
-                                        <dd><h6>Art forms in Nature</h6></dd>
-                                        <dt>Species</dt>
-                                        <dd>
-                                            Ptychogena pinnulata<br />
-                                            Skeletonema costatum Test Only
-
-                                        </dd>
-                                        <dt>Biological groups</dt>
-                                        <dd>
-                                            Medusae
-                                        </dd>
-                                        <div class="clearfix"></div>
-                                        <dt>Details</dt>
-                                        <dd>
-                                            Ptychogena pinnulata Sample collected in the North Atlantic, depth 1250 fathoms (2286 metres). Size: umbrella 50-60 mm, height 20-30 mm
-                                        </dd>
-                                    </dl>
-                                    <br />
-                                    <a href="#" class="col-sm-4 btn btn-warning btn-alt-hide"><i class="fa fa-close"></i></a>
-                                    <a class="btn btn-primary" download="C0003.jpg" href="assets/images/C0003.jpg" title="Medusa"><i class="fa fa-download"></i> Download</a>
-
-                                </div>
-                                <button type='button' class="btn-show">Show details</button>
+                                <img alt="" src="assets/images/B1253.jpg">
                             </div>
                             <div class="carousel-item">
-                                <img alt="" src="assets/images/C0007.jpg">
-                                <div class="carousel-caption" style="display:none">
-                                    <button type='button' class="btn-hide pull-right">×</button>
-
-                                    <h3>Medusa</h3>
-                                    <dl>
-                                        <dt>Source</dt>
-                                        <dd><h6>Art forms in Nature</h6></dd>
-                                        <dt>Species</dt>
-                                        <dd>
-                                            Ptychogena pinnulata<br />
-                                            Skeletonema costatum Test Only
-
-                                        </dd>
-                                        <dt>Biological groups</dt>
-                                        <dd>
-                                            Medusae
-                                        </dd>
-                                        <div class="clearfix"></div>
-                                        <dt>Details</dt>
-                                        <dd>
-                                            Ptychogena pinnulata Sample collected in the North Atlantic, depth 1250 fathoms (2286 metres). Size: umbrella 50-60 mm, height 20-30 mm
-                                        </dd>
-                                    </dl>
-
-                                </div>
-                                <button type='button' class="btn-show">Show details</button>
-                            </div>
-                            <div class="carousel-item">
-                                <img alt="" src="assets/images/D001.jpg">
-                                <div class="carousel-caption" style="display:none">
-                                    <button type='button' class="btn-hide pull-right">×</button>
-
-                                    <h3>Radiolarien</h3>
-                                    <dl>
-                                        <dt>Source</dt>
-                                        <dd><h6>Art forms in Nature</h6></dd>
-                                        <dt>Species</dt>
-                                        <dd>
-                                            Ptychogena pinnulata<br />
-                                            Skeletonema costatum Test Only
-
-                                        </dd>
-                                        <dt>Biological groups</dt>
-                                        <dd>
-                                            Medusae
-                                        </dd>
-                                        <dt>Details</dt>
-                                        <dd>
-                                            Ptychogena pinnulata Sample collected in the North Atlantic, depth 1250 fathoms (2286 metres). Size: umbrella 50-60 mm, height 20-30 mm
-                                        </dd>
-                                    </dl>
-
-                                </div>
-                                <button type='button' class="btn-show">Show details</button>
-                            </div>
-                            <div class="carousel-item">
-                                <img alt="" src="assets/images/D007.jpg">
-                                <div class="carousel-caption" style="display:none">
-                                    <button type='button' class="btn-hide pull-right">×</button>
-
-                                    <h3>Radiolarien</h3>
-                                    <dl>
-                                        <dt>Source</dt>
-                                        <dd><h6>Art forms in Nature</h6></dd>
-                                        <dt>Species</dt>
-                                        <dd>
-                                            Ptychogena pinnulata<br />
-                                            Skeletonema costatum Test Only
-
-                                        </dd>
-                                        <dt>Biological groups</dt>
-                                        <dd>
-                                            Medusae
-                                        </dd>
-                                        <dt>Details</dt>
-                                        <dd>
-                                            Ptychogena pinnulata Sample collected in the North Atlantic, depth 1250 fathoms (2286 metres). Size: umbrella 50-60 mm, height 20-30 mm
-                                        </dd>
-                                    </dl>
-
-                                </div>
-                                <button type='button' class="btn-show">Show details</button>
-                            </div>
-                            <div class="carousel-item">
-                                <img alt="" src="assets/images/D0118.jpg">
-                                <div class="carousel-caption" style="display:none">
-                                    <button type='button' class="btn-hide pull-right">×</button>
-
-                                    <h3>Radiolarien</h3>
-                                    <dl>
-                                        <dt>Source</dt>
-                                        <dd><h6>Art forms in Nature</h6></dd>
-                                        <dt>Species</dt>
-                                        <dd>
-                                            Ptychogena pinnulata<br />
-                                            Skeletonema costatum Test Only
-
-                                        </dd>
-                                        <dt>Biological groups</dt>
-                                        <dd>
-                                            Medusae
-                                        </dd>
-                                        <dt>Details</dt>
-                                        <dd>
-                                            Ptychogena pinnulata Sample collected in the North Atlantic, depth 1250 fathoms (2286 metres). Size: umbrella 50-60 mm, height 20-30 mm
-                                        </dd>
-                                    </dl>
-
-                                </div>
-                                <button type='button' class="btn-show">Show details</button>
-                            </div>
-                            <div class="carousel-item">
-                                <img alt="" src="assets/images/E0003.jpg">
-                                <div class="carousel-caption" style="display:none">
-                                    <button type='button' class="btn-hide pull-right">×</button>
-
-                                    <h3>Siphonophores</h3>
-                                    <dl>
-                                        <dt>Source</dt>
-                                        <dd><h6>Art forms in Nature</h6></dd>
-                                        <dt>Species</dt>
-                                        <dd>
-                                            Ptychogena pinnulata<br />
-                                            Skeletonema costatum Test Only
-
-                                        </dd>
-                                        <dt>Biological groups</dt>
-                                        <dd>
-                                            Medusae
-                                        </dd>
-                                        <dt>Details</dt>
-                                        <dd>
-                                            Ptychogena pinnulata Sample collected in the North Atlantic, depth 1250 fathoms (2286 metres). Size: umbrella 50-60 mm, height 20-30 mm
-                                        </dd>
-                                    </dl>
-
-                                </div>
-                                <button type='button' class="btn-show">Show details</button>
-                            </div>
-                            <div class="carousel-item">
-                                <img alt="" src="assets/images/E0007.jpg">
-                                <div class="carousel-caption" style="display:none">
-                                    <button type='button' class="btn-hide pull-right">×</button>
-
-                                    <h3>Siphonophores</h3>
-                                    <dl>
-                                        <dt>Source</dt>
-                                        <dd><h6>Art forms in Nature</h6></dd>
-                                        <dt>Species</dt>
-                                        <dd>
-                                            Ptychogena pinnulata<br />
-                                            Skeletonema costatum Test Only
-
-                                        </dd>
-                                        <dt>Biological groups</dt>
-                                        <dd>
-                                            Medusae
-                                        </dd>
-                                        <dt>Details</dt>
-                                        <dd>
-                                            Ptychogena pinnulata Sample collected in the North Atlantic, depth 1250 fathoms (2286 metres). Size: umbrella 50-60 mm, height 20-30 mm
-                                        </dd>
-                                    </dl>
-
-                                </div>
-                                <button type='button' class="btn-show">Show details</button>
-                            </div>
-                            <div class="carousel-item">
-                                <img alt="" src="assets/images/E0008.jpg">
-                                <div class="carousel-caption" style="display:none">
-                                    <button type='button' class="btn-hide pull-right">×</button>
-
-                                    <h3>Siphonophores</h3>
-                                    <dl>
-                                        <dt>Source</dt>
-                                        <dd><h6>Art forms in Nature</h6></dd>
-                                        <dt>Species</dt>
-                                        <dd>
-                                            Ptychogena pinnulata<br />
-                                            Skeletonema costatum Test Only
-
-                                        </dd>
-                                        <dt>Biological groups</dt>
-                                        <dd>
-                                            Medusae
-                                        </dd>
-                                        <dt>Details</dt>
-                                        <dd>
-                                            Ptychogena pinnulata Sample collected in the North Atlantic, depth 1250 fathoms (2286 metres). Size: umbrella 50-60 mm, height 20-30 mm
-                                        </dd>
-                                    </dl>
-
-                                </div>
-                                <button type='button' class="btn-show">Show details</button>
+                                <img alt="" src="assets/images/B1338.jpg">
                             </div>
                             <div class="carousel-item active">
-                                <img alt="" src="assets/images/E0018.jpg">
-                                <div class="carousel-caption" style="display:none">
-                                    <button type='button' class="btn-hide pull-right">×</button>
-
-                                    <h3>Siphonophores</h3>
-                                    <dl>
-                                        <dt>Source</dt>
-                                        <dd><h6>Art forms in Nature</h6></dd>
-                                        <dt>Species</dt>
-                                        <dd>
-                                            Ptychogena pinnulata<br />
-                                            Skeletonema costatum Test Only
-
-                                        </dd>
-                                        <dt>Biological groups</dt>
-                                        <dd>
-                                            Medusae
-                                        </dd>
-                                        <dt>Details</dt>
-                                        <dd>
-                                            Ptychogena pinnulata Sample collected in the North Atlantic, depth 1250 fathoms (2286 metres). Size: umbrella 50-60 mm, height 20-30 mm
-                                        </dd>
-                                    </dl>
-
-                                </div>
-                                <button type='button' class="btn-show">Show details</button>
+                                <img alt="" src="assets/images/B2374.jpg">
                             </div>
  
                         </div>
