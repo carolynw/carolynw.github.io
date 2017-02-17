@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Sage Imagine Theme - Sitemap</title>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W7K6JFF');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="/Content/Sage/Styles/sage.css" media="none" onload="if(media!=='all')media='all'">
+    <noscript><link rel="stylesheet" href="/Content/Sage/Styles/sage.css"></noscript>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        body {
+            display: none;
+        }
+    </style>
+</head>
+<body ng-app="">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7K6JFF"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!--Start Side Page Navigation-->
+    <nav id="page_side_nav">
+        <div id="page_side_nav_content" ng-include="'../../common/page_side_nav_content.html'">
+            <!--Will be sitecore placeholder-->
+        </div>
+    </nav>
+    <!--End Side Page Navigation-->
+    <div id="page_main">
+        <nav id="page_header_nav" class="navbar navbar-sage">
+            <div id="page_header_nav_content" ng-include="'../../common/page_header_nav_content.html'">
+                <!--Will be sitecore placeholder-->
+            </div>
+            <div id="page_header_sub_nav_content" ng-include="'../../common/page_header_nav_sub_content.html'">
+                <!--Will be sitecore placeholder-->
+            </div>
+            <div id="page_header_sub_nav_call_to_action" ng-include="'../../common/page_header_nav_sub_call_to_action.html'">
+                <!--Will be sitecore placeholder-->
+            </div>
+        </nav>
+        <!--End Page Navigation-->
+        <!--Start Page Header-->
+        <header id="page_header">
+            <div id="page_header_content" ng-include="'./content_widgets/content_widget_hero_banner_empty.html'">
+                <!--Will be sitecore placeholder-->
+            </div>
+        </header>
+        <!--End Page Header-->
+        <!--Start Page Content-->
+        <section id="page_section">
+            <div id="page_section_content">
+                <!--pageSectionContent-->
+                <div ng-include="'./content_widgets/page_section_row_1_content.html'">
+                    <!--Will be sitecore placeholder-->
+                </div>
+                <div ng-include="'./content_widgets/page_section_row_2_content.html'">
+                    <!--Will be sitecore placeholder-->
+                </div>
+                <!--pageSectionContent-->
+            </div>
+        </section>
+        <!--End Page Content-->
+        <!--Start Page Footer-->
+        <footer id="page_footer">
+            <div id="page_footer_content">
+                <!--Will be sitecore placeholder-->
+            </div>
+            <div id="page_footer_search_content" ng-include="'../../common/page_footer_search_content.html'">
+                <!--Will be sitecore placeholder-->
+            </div>
+            <div id="page_footer_nav_content" ng-include="'../../common/page_footer_nav_content.html'">
+                <!--Will be sitecore placeholder-->
+            </div>
+            <div id="page_footer_other_sites_content" ng-include="'../../common/page_footer_other_sites_content.html'">
+                <!--Will be sitecore placeholder-->
+            </div>
+            <div id="page_footer_logo_content" ng-include="'../../common/page_footer_logo_content.html'">
+                <!--Will be sitecore placeholder-->
+            </div>
+        </footer>
+        <!--End Page Footer-->
+    </div>
+    <!-- Site Javascript Libs -->
+    <script src="/Content/Sage/Scripts/sage.libs.min.js"></script>
+
+    <!-- Site Angular -->
+    <script src="/Content/Sage/Scripts/sage.angular.min.js"></script>
+
+    <!-- Site Javascript main -->
+    <script src="/Content/Sage/Scripts/sage.min.js"></script>
+
+    <!--browser update code-->
+    <script>
+        var $buoop = { vs: { i: 10, f: -4, o: -4, s: 8, c: -4 }, api: 4 };
+        function $buo_f() {
+            var e = document.createElement("script");
+            e.src = "//browser-update.org/update.min.js";
+            document.body.appendChild(e);
+        };
+        try { document.addEventListener("DOMContentLoaded", $buo_f, false) }
+        catch (e) { window.attachEvent("onload", $buo_f) }
+    </script>
+</body>
+</html>

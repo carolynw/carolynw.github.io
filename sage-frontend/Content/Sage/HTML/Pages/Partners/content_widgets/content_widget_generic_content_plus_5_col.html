@@ -1,0 +1,106 @@
+<div class="content-widget generic-content plus-5-col text-center">
+    <div class="content-widget-inner">
+        <div class="wrapper">
+            <div class="header">
+                <!--header-->
+                <h2 class="h1">Become a partner</h2>
+                <!--header-->
+            </div>
+            <div class="section">
+                <!--section-->
+                <p>Choose your type of partnership to find out how Sage can help your business</p>
+                <!--section-->
+                <div class="partner-filter">
+                    <div class="the-slide">
+                        <div class="border-top-bottom solution-trig partners">
+                            <div class="widget-placeholder-inner solution partners" data-solution="service-reseller" ng-include="'./content_widgets/content_widget_generic_content_col_1_solution.html'">
+                                <!-- widget here -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="the-slide">
+                        <div class="border-top-bottom solution-trig partners">
+                            <div class="widget-placeholder-inner solution partners" data-solution="system-implementer" ng-include="'./content_widgets/content_widget_generic_content_col_2_solution.html'">
+                                <!-- widget here -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="the-slide">
+                        <div class="border-top-bottom solution-trig partners">
+                            <div class="widget-placeholder-inner solution partners" data-solution="independant-software-vendor" ng-include="'./content_widgets/content_widget_generic_content_col_3_solution.html'">
+                                <!-- widget here -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="the-slide">
+                        <div class="border-top-bottom solution-trig partners">
+                            <div class="widget-placeholder-inner solution partners" data-solution="professional-accountant" ng-include="'./content_widgets/content_widget_generic_content_col_4_solution.html'">
+                                <!-- widget here -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="the-slide">
+                        <div class="border-top-bottom solution-trig partners">
+                            <div class="widget-placeholder-inner solution partners" data-solution="alliance-partner" ng-include="'./content_widgets/content_widget_generic_content_col_5_solution.html'">
+                                <!-- widget here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer margin-top-md">
+                <!--footer-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('.partner-filter').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 5,
+        centerMode: false,
+        variableWdith: false,
+        slidesToScroll: 5,
+        responsive: [
+          {
+              breakpoint: 960,
+              settings: {
+                  focusOnSelect: false,
+                  centerMode: false,
+                  slidesToShow: 3,
+                  slidesToScroll: 3,
+                  centerPadding: '40px',
+                  dots: true,
+                  arrows: false
+              }
+          },
+          {
+              breakpoint: 720,
+              settings: {
+                  focusOnSelect: false,
+                  centerMode: false,
+                  slidesToShow: 2,
+                  slidesToScroll: 2,
+                  centerPadding: '40px',
+                  dots: true,
+                  arrows: false
+              }
+          },
+          {
+              breakpoint: 480,
+              settings: {
+                  focusOnSelect: true,
+                  centerMode: false,
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  centerPadding: '40px',
+                  dots: true,
+                  arrows: false
+              }
+          }
+        ]
+    });
+</script>

@@ -1,0 +1,105 @@
+<div class="content-widget generic-content plus-4-col text-center">
+    <div class="content-widget-inner">
+        <div class="wrapper">
+            <div class="header">
+                <!--header-->
+                <h2 class="h1">A solution that is ready for your industry</h2>
+                <!--header-->
+            </div>
+            <div class="section">
+                <!--section-->
+                <p>Choose your industry to find out how Sage X3 can help today</p>
+                <!--section-->              
+                <div class="solution-filter">
+                    <div class="the-slide">
+                        <div class="border-top-bottom solution-trig solutions">
+                            <div class="widget-placeholder-inner solution" data-solution="distribution" ng-include="'./content_widgets/content_widget_generic_content_col_1_solution.html'">
+                                <!-- widget here -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="the-slide">
+                        <div class="border-top-bottom solution-trig solutions">
+                            <div class="widget-placeholder-inner solution" data-solution="manufacturing" ng-include="'./content_widgets/content_widget_generic_content_col_2_solution.html'">
+                                <!-- widget here -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="the-slide">
+                        <div class="border-top-bottom solution-trig solutions">
+                            <div class="widget-placeholder-inner solution" data-solution="process" ng-include="'./content_widgets/content_widget_generic_content_col_3_solution.html'">
+                                <!-- widget here -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="the-slide">
+                        <div class="border-top-bottom solution-trig solutions">
+                            <div class="widget-placeholder-inner solution" data-solution="services" ng-include="'./content_widgets/content_widget_generic_content_col_4_solution.html'">
+                                <!-- widget here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer margin-top-md">
+                <!--footer-->
+                <!--<a href="#" class="button-black button-inline">Read solutions capabilities guide</a>
+                <a href="#" class="button-black button-inline">Learn more about Sage X3 cloud</a>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $('.solution-filter').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        centerMode: false,
+        variableWdith: false,
+        slidesToScroll: 4,
+        responsive: [
+          {
+              breakpoint: 960,
+              settings: {
+                  focusOnSelect: false,
+                  centerMode: false,
+                  slidesToShow: 3,
+                  slidesToScroll: 3,
+                  initialSlide: 1,
+                  centerPadding: '40px',
+                  dots: true,
+                  arrows: false
+              }
+          },
+          {
+              breakpoint: 720,
+              settings: {
+                  focusOnSelect: false,
+                  centerMode: false,
+                  slidesToShow: 2,
+                  slidesToScroll: 2,
+                  initialSlide: 1,
+                  centerPadding: '40px',
+                  dots: true,
+                  arrows: false
+              }
+          },
+          {
+              breakpoint: 480,
+              settings: {
+                  focusOnSelect: true,
+                  centerMode: false,
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  initialSlide: 1,
+                  centerPadding: '40px',
+                  dots: true,
+                  arrows: false
+              }
+          }
+        ]
+    });
+</script>
