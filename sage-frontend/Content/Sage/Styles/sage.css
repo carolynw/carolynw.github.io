@@ -9934,9 +9934,9 @@ h6,
     width: 100%;
     height: auto; }
     .forced-aspect img.aspect-4-3 {
-      content: url("/Content/Sage/Images/trans_4_3_rectangle.gif") !important; }
+      content: url("/sage-frontend/Content/Sage/Images/trans_4_3_rectangle.gif") !important; }
     .forced-aspect img.aspect-16-9 {
-      content: url("/Content/Sage/Images/trans_16_9_rectangle.gif") !important; }
+      content: url("/sage-frontend/Content/Sage/Images/trans_16_9_rectangle.gif") !important; }
 
 .ul-reset {
   padding: 0;
@@ -10297,23 +10297,23 @@ h6,
   background-repeat: no-repeat;
   display: inline-block; }
   .icon.solution.distribution {
-    background-image: url("/Content/Sage/Images/sample_content_images/icon_distribution.svg"); }
+    background-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_distribution.svg"); }
   .icon.solution.manufacturing {
-    background-image: url("/Content/Sage/Images/sample_content_images/icon_manufacturing.svg"); }
+    background-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_manufacturing.svg"); }
   .icon.solution.process {
-    background-image: url("/Content/Sage/Images/sample_content_images/icon_process.svg"); }
+    background-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_process.svg"); }
   .icon.solution.services {
-    background-image: url("/Content/Sage/Images/sample_content_images/icon_services.svg"); }
+    background-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_services.svg"); }
   .icon.solution.service-reseller {
-    background-image: url("/Content/Sage/Images/sample_content_images/icon_service_reseller.svg"); }
+    background-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_service_reseller.svg"); }
   .icon.solution.system-implementer {
-    background-image: url("/Content/Sage/Images/sample_content_images/icon_system_implementer.svg"); }
+    background-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_system_implementer.svg"); }
   .icon.solution.independant-software-vendor {
-    background-image: url("/Content/Sage/Images/sample_content_images/icon_independant_software_vendor.svg"); }
+    background-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_independant_software_vendor.svg"); }
   .icon.solution.professional-accountant {
-    background-image: url("/Content/Sage/Images/sample_content_images/icon_professional_accountant.svg"); }
+    background-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_professional_accountant.svg"); }
   .icon.solution.alliance-partner {
-    background-image: url("/Content/Sage/Images/sample_content_images/icon_alliance_partner.svg"); }
+    background-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_alliance_partner.svg"); }
 
 .social-icons a.social {
   color: #858780;
@@ -10818,23 +10818,23 @@ body {
     .content-widget.plus-4-col .border-top-bottom.inactive .widget-placeholder-inner hgroup .h4, .content-widget.plus-5-col .border-top-bottom.inactive .widget-placeholder-inner hgroup .h4 {
       color: #858780; }
     .content-widget.plus-4-col .border-top-bottom.inactive .widget-placeholder-inner .icon.solution.distribution, .content-widget.plus-5-col .border-top-bottom.inactive .widget-placeholder-inner .icon.solution.distribution {
-      background-image: url("/Content/Sage/Images/sample_content_images/icon_distribution_inactive.svg"); }
+      background-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_distribution_inactive.svg"); }
     .content-widget.plus-4-col .border-top-bottom.inactive .widget-placeholder-inner .icon.solution.manufacturing, .content-widget.plus-5-col .border-top-bottom.inactive .widget-placeholder-inner .icon.solution.manufacturing {
-      background-image: url("/Content/Sage/Images/sample_content_images/icon_manufacturing_inactive.svg"); }
+      background-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_manufacturing_inactive.svg"); }
     .content-widget.plus-4-col .border-top-bottom.inactive .widget-placeholder-inner .icon.solution.process, .content-widget.plus-5-col .border-top-bottom.inactive .widget-placeholder-inner .icon.solution.process {
-      background-image: url("/Content/Sage/Images/sample_content_images/icon_process_inactive.svg"); }
+      background-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_process_inactive.svg"); }
     .content-widget.plus-4-col .border-top-bottom.inactive .widget-placeholder-inner .icon.solution.services, .content-widget.plus-5-col .border-top-bottom.inactive .widget-placeholder-inner .icon.solution.services {
-      background-image: url("/Content/Sage/Images/sample_content_images/icon_services_inactive.svg"); }
+      background-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_services_inactive.svg"); }
     .content-widget.plus-4-col .border-top-bottom.inactive .widget-placeholder-inner .icon.solution.service-reseller, .content-widget.plus-5-col .border-top-bottom.inactive .widget-placeholder-inner .icon.solution.service-reseller {
-      background-image: url("/Content/Sage/Images/sample_content_images/icon_service_reseller_inactive.svg"); }
+      background-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_service_reseller_inactive.svg"); }
     .content-widget.plus-4-col .border-top-bottom.inactive .widget-placeholder-inner .icon.solution.system-implementer, .content-widget.plus-5-col .border-top-bottom.inactive .widget-placeholder-inner .icon.solution.system-implementer {
-      background-image: url("/Content/Sage/Images/sample_content_images/icon_system_implementer_inactive.svg"); }
+      background-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_system_implementer_inactive.svg"); }
     .content-widget.plus-4-col .border-top-bottom.inactive .widget-placeholder-inner .icon.solution.independant-software-vendor, .content-widget.plus-5-col .border-top-bottom.inactive .widget-placeholder-inner .icon.solution.independant-software-vendor {
-      background-image: url("/Content/Sage/Images/sample_content_images/icon_independant_software_vendor_inactive.svg"); }
+      background-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_independant_software_vendor_inactive.svg"); }
     .content-widget.plus-4-col .border-top-bottom.inactive .widget-placeholder-inner .icon.solution.professional-accountant, .content-widget.plus-5-col .border-top-bottom.inactive .widget-placeholder-inner .icon.solution.professional-accountant {
-      background-image: url("/Content/Sage/Images/sample_content_images/icon_professional_accountant_inactive.svg"); }
+      background-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_professional_accountant_inactive.svg"); }
     .content-widget.plus-4-col .border-top-bottom.inactive .widget-placeholder-inner .icon.solution.alliance-partner, .content-widget.plus-5-col .border-top-bottom.inactive .widget-placeholder-inner .icon.solution.alliance-partner {
-      background-image: url("/Content/Sage/Images/sample_content_images/icon_alliance_partner_inactive.svg"); }
+      background-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_alliance_partner_inactive.svg"); }
   .content-widget.plus-4-col .border-top-bottom.active, .content-widget.plus-5-col .border-top-bottom.active {
     margin-bottom: -3px;
     opacity: 1; }
@@ -11041,11 +11041,11 @@ body {
       height: auto;
       max-height: none; }
     .accounting-module #phone_fan .phone.left {
-      background-image: url(/Content/Sage/Images/sample_content_images/pink_rect.jpg), url(/Content/Sage/Images/sample_content_images/iphone.png); }
+      background-image: url(/sage-frontend/Content/Sage/Images/sample_content_images/pink_rect.jpg), url(/sage-frontend/Content/Sage/Images/sample_content_images/iphone.png); }
     .accounting-module #phone_fan .phone.right {
-      background-image: url(/Content/Sage/Images/sample_content_images/pink_rect.jpg), url(/Content/Sage/Images/sample_content_images/iphone.png); }
+      background-image: url(/sage-frontend/Content/Sage/Images/sample_content_images/pink_rect.jpg), url(/sage-frontend/Content/Sage/Images/sample_content_images/iphone.png); }
     .accounting-module #phone_fan .phone.centre {
-      background-image: url(/Content/Sage/Images/sample_content_images/pink_rect.jpg), url(/Content/Sage/Images/sample_content_images/iphone.png); }
+      background-image: url(/sage-frontend/Content/Sage/Images/sample_content_images/pink_rect.jpg), url(/sage-frontend/Content/Sage/Images/sample_content_images/iphone.png); }
   .accounting-module #phone_fan.open .phone.left {
     transform: rotate(-15deg) translate(-70%, -8%); }
   .accounting-module #phone_fan.open .phone.right {
@@ -12417,7 +12417,7 @@ body {
     .content-widget.product-pricing .content-widget-inner .wrapper .section .product-price-panel .panel.panel-default .panel-body {
       padding: 45px 15px; }
       .content-widget.product-pricing .content-widget-inner .wrapper .section .product-price-panel .panel.panel-default .panel-body ul {
-        list-style-image: url("/Content/Sage/Images/sample_content_images/icon_tick_black.svg"); }
+        list-style-image: url("/sage-frontend/Content/Sage/Images/sample_content_images/icon_tick_black.svg"); }
       .content-widget.product-pricing .content-widget-inner .wrapper .section .product-price-panel .panel.panel-default .panel-body output {
         text-align: left;
         display: block;
@@ -12914,7 +12914,7 @@ body {
     width: 100%;
     height: 40px;
     display: block;
-    background: url("/Content/Sage/Images/sage_logo_green.svg") no-repeat center center; }
+    background: url("/sage-frontend/Content/Sage/Images/sage_logo_green.svg") no-repeat center center; }
   #page_header_nav.navbar-sage .nav-pills-sage {
     font-size: 1.0em;
     font-weight: normal;
@@ -13269,7 +13269,7 @@ body {
             width: 80px;
             height: 32px;
             display: inline-block;
-            background: url("/Content/Sage/Images/sage_logo_green.svg") no-repeat center center;
+            background: url("/sage-frontend/Content/Sage/Images/sage_logo_green.svg") no-repeat center center;
             float: left; }
         #side_nav #page_side_nav ul li.sub-section {
           min-height: 60px; }
