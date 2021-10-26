@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="45px" viewBox="0 0 58 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>iOS/Toggles/Active</title>
+    <defs>
+        <circle id="path-1" cx="15.5" cy="15.5" r="14"></circle>
+        <filter x="-50.0%" y="-39.3%" width="200.0%" height="200.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter3" in2="SourceAlpha" operator="out" result="shadowBlurOuter3"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Elements-&amp;-Patterns" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iOS/Lists/Ω-Fragments/Toggle" transform="translate(-114.000000, -3.000000)">
+            <g id="Group" transform="translate(121.000000, 7.000000)">
+                <path d="M31.0467054,0.750503669 C32.5315913,0.752908748 33.8155731,0.767058408 35.1003745,0.840939932 C36.626996,0.927844382 38.1144585,1.11111764 39.5951014,1.5254658 C42.6642761,2.38335101 45.3451268,4.17441634 47.2827409,6.71509741 C49.2080263,9.23840961 50.25,12.3274355 50.25,15.4991522 C50.25,18.6747003 49.2080478,21.7618665 47.2827185,24.2852364 C45.3451851,26.8248604 42.6643234,28.6169402 39.5948824,29.4748998 C38.1143043,29.8892299 36.6266802,30.0715124 35.0999429,30.1593892 C33.7229357,30.238573 32.3465559,30.2484015 30.9697219,30.2492882 L30.9697219,30.2492882 L22.6519554,30.2499768 L21.1070934,30.2501522 C19.0599526,30.2498972 17.4808192,30.2502376 15.9001247,30.1593931 C14.3743149,30.0715141 12.8866934,29.8892293 11.4058986,29.4748386 C8.33667659,28.6169402 5.65581487,26.8248604 3.71825905,24.285207 C1.79296295,21.7618806 0.75,18.6747461 0.75,15.5001522 C0.75,12.3274598 1.79296295,9.23842375 3.71836359,6.71496037 C5.65587321,4.17441634 8.33672395,2.38335101 11.4061176,1.52540457 C12.8865391,1.11111831 14.3739988,0.92784272 15.9000324,0.840916655 C17.2778891,0.76172949 18.6544847,0.751260233 20.0312056,0.7501202 L20.0312056,0.7501202 Z" id="base" stroke="#E5E5EA" stroke-width="1.5" fill="#F9F9F9"></path>
+                <g id="knob">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <circle stroke-opacity="0.04" stroke="#000000" stroke-width="0.5" fill="#FFFFFF" fill-rule="evenodd" cx="15.5" cy="15.5" r="14.25"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

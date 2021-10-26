@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Left icon</title>
+    <g id="Elements-&amp;-Patterns" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iOS/Inline-message/Warning" transform="translate(-16.000000, -12.000000)" fill-rule="nonzero">
+            <g id="Left-icon" transform="translate(16.000000, 12.000000)">
+                <circle id="Oval" fill="#FFBB33" cx="10" cy="10" r="10"></circle>
+                <circle id="Oval" fill="#000000" cx="10" cy="14.4444444" r="1.33333333"></circle>
+                <polygon id="Rectangle-path" fill="#000000" points="9 4.22222222 11 4.22222222 11 10.8888889 9 10.8888889"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="41px" viewBox="0 0 35 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Doc Icon</title>
+    <defs>
+        <polygon id="path-1" points="-4.54747351e-13 38.7161255 -4.54747351e-13 0.716125541 12.9940271 0.716125541 21.7598877 0.716125541 32 10.1168213 31.9803855 38.7161255"></polygon>
+        <path d="M0.5,0 L11.5,9.74173431 L4.51662383,9.99764094 C2.49846207,10.0715993 0.803954105,8.39749945 0.726268288,6.25302813 L0.5,0 Z" id="path-3"></path>
+        <polygon id="path-5" points="0.0159051852 0.0978708811 4.94923782 0.0978708811 4.94923782 12.4609829 0.0159051852 12.4609829"></polygon>
+        <polygon id="path-7" points="0.0165835905 0.0341769364 4.97601852 0.0341769364 4.97601852 6.21574483 0.0165835905 6.21574483"></polygon>
+        <polygon id="path-9" points="0.272460391 0.212289837 5.23189532 0.212289837 5.23189532 17.2854863 0.272460391 17.2854863"></polygon>
+    </defs>
+    <g id="🎮-Play" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Grow-2-Copy-2" transform="translate(-51.000000, -494.000000)">
+            <g id="Doc-Icon" transform="translate(51.000000, 494.000000)">
+                <g id="Paper" transform="translate(0.000000, 0.283874)">
+                    <g id="Group-8" transform="translate(1.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-7"></g>
+                        <polygon id="Fill-6" fill="#FFFFFF" mask="url(#mask-2)" points="0 38.7161255 32 38.7161255 32 10.0186158 21.7908936 0.716125541 0 0.716125541"></polygon>
+                    </g>
+                    <path d="M22.7497253,0.533874459 L0.25,0.533874459 L0.25,39.0338745 L33.7299229,39.0338745 L33.7502155,10.2605591 L22.7497253,0.533874459 Z M23.073,2.033 L32.25,10.321 L32.23,37.533 L1.75,37.533 L1.75,2.033 L23.073,2.033 Z" id="Combined-Shape" fill="#333333" fill-rule="nonzero"></path>
+                    <g id="Group-16" transform="translate(22.250000, 0.516126)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-15"></g>
+                        <path d="M11.5,9.74172821 L4.51662433,9.99764103 C2.49846607,10.0715984 0.803914233,8.39747999 0.726304063,6.25302635 L0.5,0 L11.5,9.74172821 Z" id="Stroke-14" stroke="#DB0011" stroke-width="3" mask="url(#mask-4)"></path>
+                    </g>
+                </g>
+                <g id="Chart" transform="translate(7.365741, 16.574459)">
+                    <g id="Group-19" transform="translate(7.342593, 4.825866)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="Clip-18"></g>
+                        <polygon id="Fill-17" fill="#FFFFFF" mask="url(#mask-6)" points="-0.960975926 13.4379518 5.92616045 13.4379518 5.92616045 -0.879109908 -0.960975926 -0.879109908"></polygon>
+                    </g>
+                    <polygon id="Stroke-20" stroke="#333333" stroke-width="1.5" points="7.34259259 4.8258658 12.1435185 4.8258658 12.1435185 17.316342 7.34259259 17.316342"></polygon>
+                    <g id="Group-24" transform="translate(0.000000, 11.071104)">
+                        <mask id="mask-8" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <g id="Clip-23"></g>
+                        <polygon id="Fill-22" fill="#FFFFFF" mask="url(#mask-8)" points="-0.965525823 7.19271375 5.95805043 7.19271375 5.95805043 -0.942786046 -0.965525823 -0.942786046"></polygon>
+                    </g>
+                    <polygon id="Stroke-25" stroke="#333333" stroke-width="1.5" points="8.43769499e-14 11.0711039 4.80092593 11.0711039 4.80092593 17.316342 8.43769499e-14 17.316342"></polygon>
+                    <g id="Group-29" transform="translate(14.402778, 0.000000)">
+                        <mask id="mask-10" fill="white">
+                            <use xlink:href="#path-9"></use>
+                        </mask>
+                        <g id="Clip-28"></g>
+                        <polygon id="Fill-27" fill="#FFFFFF" mask="url(#mask-10)" points="-0.709589403 18.2667029 6.21398685 18.2667029 6.21398685 -0.768932734 -0.709589403 -0.768932734"></polygon>
+                    </g>
+                    <polygon id="Stroke-30" stroke="#333333" stroke-width="1.5" points="14.7304285 0.153147229 19.6361317 0.153147229 19.6361317 17.2844143 14.7304285 17.2844143"></polygon>
+                </g>
+                <g id="Text" transform="translate(7.365741, 6.677489)" stroke="#333333" stroke-linecap="square" stroke-width="1.5">
+                    <line x1="0.124682346" y1="5.21251082" x2="14.1961688" y2="5.21251082" id="Stroke-32"></line>
+                    <line x1="0.124682346" y1="1.44251082" x2="8.95469016" y2="1.44251082" id="Stroke-34"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Status &amp; Notifications / No</title>
+    <defs>
+        <polygon id="path-1" points="21.8986667 3.232 20.768 2.10133333 12 10.8693333 3.232 2.10133333 2.10133333 3.232 10.8693333 12 2.10133333 20.768 3.232 21.8986667 12 13.1306667 20.768 21.8986667 21.8986667 20.768 13.1306667 12"></polygon>
+    </defs>
+    <g id="Elements-&amp;-Patterns" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Status-&amp;-Notifications-/-No" transform="translate(-2.000000, -2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Icon-colour" fill="#333333" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

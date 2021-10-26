@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="54px" viewBox="0 0 53 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>RPQ Indicator</title>
+    <g id="🎮-Play" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Grow-2-Copy-2" transform="translate(-44.000000, -364.000000)" stroke-width="1.5">
+            <g id="Pictorgram" transform="translate(44.000000, 364.420907)">
+                <rect id="Shadow" stroke="#333333" fill="#333333" x="0.75" y="15.032218" width="37.5" height="36.890625" rx="18.4453125"></rect>
+                <rect id="Surface" stroke="#333333" fill="#FFFFFF" x="0.75" y="12.079093" width="37.5" height="36.890625" rx="18.4453125"></rect>
+                <g id="Needle" transform="translate(17.000000, 16.989249)" stroke="#DB0011">
+                    <line x1="1.75" y1="0" x2="7.25" y2="13.2890625" id="Line" transform="translate(4.750000, 6.890625) scale(-1, 1) translate(-4.750000, -6.890625) "></line>
+                    <ellipse id="Oval" fill="#FFFFFF" cx="2.5" cy="13.5351562" rx="2.5" ry="2.4609375"></ellipse>
+                </g>
+                <g id="Lines" transform="translate(1.000000, 12.313468)" stroke="#333333" stroke-linecap="round">
+                    <line x1="33" y1="17.2265625" x2="37.0149929" y2="17.2265625" id="Line" transform="translate(35.007496, 17.226563) scale(-1, 1) translate(-35.007496, -17.226563) "></line>
+                    <line x1="31.1580573" y1="5.00110305" x2="28.3190286" y2="7.79577195" id="Line"></line>
+                    <line x1="18.5" y1="0" x2="18.5" y2="3.95225867" id="Line"></line>
+                    <line x1="5.31902857" y1="5.00110305" x2="8.1580573" y2="7.79577195" id="Line"></line>
+                    <line x1="0" y1="17.2265625" x2="4.01499294" y2="17.2265625" id="Line" transform="translate(2.007496, 17.226563) scale(-1, 1) translate(-2.007496, -17.226563) "></line>
+                </g>
+                <path d="M50.7884031,18.4081166 C50.712299,18.915957 50.7116864,19.4354593 50.7893288,19.9463949 C50.288754,19.8951046 49.7689422,19.9076015 49.2550545,19.9939293 C49.3126293,19.4778833 49.3002848,18.9416487 49.2086382,18.4118877 C49.7318172,18.4958315 50.2655108,18.4945226 50.7884031,18.4081166 Z" id="Star" stroke="#333333" fill="#333333" transform="translate(50.000000, 19.204093) rotate(-315.000000) translate(-50.000000, -19.204093) "></path>
+                <path d="M46.9140312,3.9116023 C46.051851,6.57082569 46.0338102,9.48824575 46.921788,12.1846752 C44.2783573,11.4043802 41.353792,11.4234012 38.6569079,12.3428864 C39.4878442,9.65411724 39.4796324,6.66716523 38.5303538,3.91673786 C41.2433504,4.86294016 44.2015041,4.86135341 46.9140312,3.9116023 Z" id="Star" stroke="#333333" fill="#FFFFFF" transform="translate(42.753425, 8.133245) rotate(-315.000000) translate(-42.753425, -8.133245) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

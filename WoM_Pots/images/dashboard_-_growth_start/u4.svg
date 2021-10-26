@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="90px" viewBox="0 0 375 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <title>iOS/Navigation bars/Bottom iPhone X_Dashboard/Grow</title>
+    <defs>
+        <path d="M17.99,14.1944444 C17.77,13.6511111 17.4588889,13.1455556 17.05,12.7255556 C16.0777778,11.7244444 14.8611111,10.9666667 13.4255556,10.5011111 L10.0111111,13.9155556 L6.59111111,10.4944444 C5.14777778,10.96 3.92555556,11.72 2.94888889,12.7255556 C2.54,13.1466667 2.22888889,13.6511111 2.00888889,14.1944444 L0,19.1666667 L20,19.1666667 L17.99,14.1944444 Z M3.24555556,14.6944444 C3.41111111,14.2855556 3.63333333,13.9355556 3.90555556,13.6555556 C4.56666667,12.9744444 5.35555556,12.4344444 6.25555556,12.0444444 L9.07,14.8588889 L10.0133333,15.8011111 L10.9555556,14.8588889 L13.7622222,12.0522222 C14.6555556,12.4411111 15.4377778,12.9788889 16.0944444,13.6555556 C16.3666667,13.9355556 16.5888889,14.2855556 16.7544444,14.6955556 L18.0233333,17.8344444 L1.97666667,17.8344444 L3.24555556,14.6944444 Z M10.0111111,10.2777778 C12.7322222,10.2777778 13.8888889,7.72444444 13.8888889,5.43444444 C13.8888889,3.05666667 12.7544444,0.833333333 10.0111111,0.833333333 C7.26777778,0.833333333 6.11111111,3.03555556 6.11111111,5.43444444 C6.11111111,7.79 7.24444444,10.2777778 10.0111111,10.2777778 Z M10.0111111,2.16666667 C12.3077778,2.16666667 12.5555556,4.45222222 12.5555556,5.43444444 C12.5555556,6.73777778 12.02,8.94444444 10.0111111,8.94444444 C7.56777778,8.94444444 7.44444444,6.02111111 7.44444444,5.43444444 C7.44444444,4.45222222 7.69444444,2.16666667 10.0111111,2.16666667 Z" id="path-1"></path>
+        <path d="M1.2,0 L0,0 L0,18 L18,18 L18,16.8 L1.2,16.8 L1.2,0 Z M15.606,1.545 L8.396,8.756 L5.629,5.988 L2.7,8.917 L2.7,15.3 L18,15.3 L18,3.939 L15.606,1.545 Z" id="path-3"></path>
+        <path d="M10,0 C4.47666667,0 0,4.47666667 0,10 C0,15.5233333 4.47666667,20 10,20 C15.5233333,20 20,15.5233333 20,10 C20,4.47666667 15.5233333,0 10,0 Z M10,18.6666667 C5.22111111,18.6666667 1.33333333,14.7788889 1.33333333,10 C1.33333333,5.22111111 5.22111111,1.33333333 10,1.33333333 C14.7788889,1.33333333 18.6666667,5.22111111 18.6666667,10 C18.6666667,14.7788889 14.7788889,18.6666667 10,18.6666667 Z M10.3355556,10 L12.2211111,10 L15.5544444,6.66666667 L12.2211111,3.33333333 L10.3355556,3.33333333 L13.0022222,6 L4.44444444,6 L4.44444444,7.33333333 L13.0022222,7.33333333 L10.3355556,10 Z M9.66444444,10 L7.78,10 L4.44666667,13.3333333 L7.78,16.6666667 L9.66555556,16.6666667 L6.99888889,14 L15.5555556,14 L15.5555556,12.6666667 L6.99777778,12.6666667 L9.66444444,10 Z" id="path-5"></path>
+        <path d="M18.3333333,5.55555556 L1.66666667,5.55555556 C0.75,5.55555556 0,6.30555556 0,7.22222222 L0,18.3333333 C0,19.25 0.75,20 1.66666667,20 L18.3333333,20 C19.25,20 20,19.25 20,18.3333333 L20,7.22222222 C20,6.30555556 19.25,5.55555556 18.3333333,5.55555556 Z M18.6666667,18.3333333 C18.6666667,18.5144444 18.5144444,18.6666667 18.3333333,18.6666667 L1.66666667,18.6666667 C1.48555556,18.6666667 1.33333333,18.5144444 1.33333333,18.3333333 L1.33333333,7.22222222 C1.33333333,7.04111111 1.48555556,6.88888889 1.66666667,6.88888889 L18.3333333,6.88888889 C18.5144444,6.88888889 18.6666667,7.04111111 18.6666667,7.22222222 L18.6666667,18.3333333 Z M3.33333333,13.3333333 L5.55555556,13.3333333 L5.55555556,11.1111111 L3.33333333,11.1111111 L3.33333333,13.3333333 Z M16.4444444,2.88888889 L3.55555556,2.88888889 C2.81888889,2.88888889 2.22222222,3.48555556 2.22222222,4.22222222 L17.7777778,4.22222222 C17.7777778,3.48555556 17.1811111,2.88888889 16.4444444,2.88888889 Z M14.2222222,0 L5.77777778,0 C5.04111111,0 4.44444444,0.596666667 4.44444444,1.33333333 L15.5555556,1.33333333 C15.5555556,0.596666667 14.9588889,0 14.2222222,0 Z" id="path-7"></path>
+    </defs>
+    <g id="iOS/Navigation-bars/Bottom-iPhone-X_Dashboard/Grow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="375" height="90"></rect>
+        <g id="iOS/Navigation-bars/Bottom-iPhone-X">
+            <rect id="bg" fill="#FFFFFF" x="0" y="0" width="375" height="90"></rect>
+            <rect id="div" fill="#EDEDED" x="0" y="0" width="375" height="1"></rect>
+            <g id="Home-Indicator" transform="translate(0.000000, 56.000000)" fill="#000000">
+                <rect x="120.5" y="20" width="134" height="5" rx="2.5"></rect>
+            </g>
+            <g id="iOS/Navigation-bars/Bottom">
+                <rect id="bg" fill="#FFFFFF" x="0" y="0" width="375" height="56"></rect>
+                <rect id="div" fill="#EDEDED" x="0" y="0" width="375" height="1"></rect>
+                <g id="Item-4" transform="translate(281.000000, 0.000000)">
+                    <text id="✏️-Label" font-family="SFProText-Medium, SF Pro Text" font-size="12" font-weight="400" line-spacing="16" fill="#333333">
+                        <tspan x="28.1679688" y="43">Profile</tspan>
+                    </text>
+                    <g id="System-icons/-User-/" transform="translate(37.000000, 10.000000)">
+                        <rect id="Container" fill="#FFFFFF" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Icon-colour" fill="#333333" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+                <g id="Item-3" transform="translate(200.500000, 10.000000)">
+                    <text id="✏️-Label" font-family="SFProText-Medium, SF Pro Text" font-size="12" font-weight="400" line-spacing="16" fill="#DB0011">
+                        <tspan x="19.1777344" y="33">Grow</tspan>
+                    </text>
+                    <g id="System-icons/-Account-/-" transform="translate(24.500000, 0.000000)">
+                        <rect id="Container" fill="#FFFFFF" opacity="0" x="0" y="0" width="18" height="18"></rect>
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Icon-colour" fill="#DB0011" xlink:href="#path-3"></use>
+                    </g>
+                </g>
+                <g id="Item-2" transform="translate(94.000000, 0.000000)">
+                    <text id="✏️-Label" font-family="SFProText-Medium, SF Pro Text" font-size="12" font-weight="400" line-spacing="16" fill="#333333">
+                        <tspan x="10.1708984" y="42">Move money</tspan>
+                    </text>
+                    <g id="System-icons/-Payment-and-transfer-/" transform="translate(37.000000, 11.000000)">
+                        <polygon id="Container" fill="#FFFFFF" opacity="0" transform="translate(10.000000, 10.000000) rotate(90.000000) translate(-10.000000, -10.000000) " points="6.06863643e-13 5.45586416e-12 20 5.45586416e-12 20 20 6.06863643e-13 20"></polygon>
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <use id="Icon-colour" fill="#333333" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+                <g id="Item-1" transform="translate(12.000000, 10.000000)">
+                    <text id="-✏️-Label" font-family="SFProText-Medium, SF Pro Text" font-size="12" font-weight="400" line-spacing="16" fill="#333333">
+                        <tspan x="7.66894531" y="33">Accounts</tspan>
+                    </text>
+                    <g id="System-icons/-Account-/-Active" transform="translate(25.000000, 0.000000)">
+                        <rect id="Container" fill="#FFFFFF" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                        <mask id="mask-8" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <use id="Icon-colour" fill="#000000" xlink:href="#path-7"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
